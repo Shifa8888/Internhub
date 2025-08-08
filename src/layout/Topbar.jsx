@@ -12,8 +12,12 @@ function Topbar({ setIsSidebarOpen }) {
       </div>
       <div className="flex items-center space-x-2 sm:space-x-4">
         <span className="text-gray-700 text-sm sm:text-base">Admin User</span>
-        <img src="https://via.placeholder.com/40" alt="Profile" className="rounded-full w-8 sm:w-10" />
-        <span className="text-gray-500 cursor-pointer text-lg">🔔</span>
+ {/* Profile image from placeholder */}
+  <img
+    src="https://randomuser.me/api/portraits/women/44.jpg"
+    alt="Profile"
+    className="rounded-full w-8 h-8 sm:w-10 sm:h-10 object-cover"
+  />        <span className="text-gray-500 cursor-pointer text-lg">🔔</span>
       </div>
     </div>
   );

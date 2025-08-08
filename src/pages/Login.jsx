@@ -23,7 +23,11 @@ function Login() {
       <div className="absolute inset-0 bg-black/20 backdrop-blur-sm z-0"></div>
 
       <div className="relative z-10 bg-white p-6 sm:p-10 rounded-3xl shadow-2xl w-full max-w-md transition-all duration-300">
-        <img src="/assets/logo.png" alt="Logo" className="mx-auto mb-6 w-24 sm:w-32 drop-shadow-lg" />
+<img
+  src="/imges/file.jpg"
+  alt="Logo"
+  className="mb-6 w-10 h-10 sm:w-20 sm:h-20 mx-auto"
+/>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-center text-gray-800 mb-6">
           Welcome Back to <span className="text-indigo-600">InternHub</span>
         </h2>

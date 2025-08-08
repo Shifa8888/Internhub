@@ -16,7 +16,11 @@ function Sidebar({ isOpen, setIsOpen }) {
       } sm:transform-none sm:static sm:w-64 transition-transform duration-300 z-50`}
     >
       <div className="p-4">
-        <img src="/assets/logo.png" alt="Logo" className="mb-6 w-24 sm:w-32 mx-auto" />
+<img
+  src="/imges/file.jpg"
+  alt="Logo"
+  className="mb-6 w-10 h-10 sm:w-20 sm:h-20 mx-auto"
+/>
         <nav>
           {navItems.map(({ name, to, icon }) => (
             <Link
